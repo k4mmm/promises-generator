@@ -1,0 +1,31 @@
+{
+  "name": "promises-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://k4mmm.github.io/promises-generator/",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /promises-generator/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k4mmm/promises-generator.git"
+  },
+  "keywords": [],
+  "author": "Kostia Chaikovskyi <chaichka175@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/k4mmm/promises-generato/issues"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "posthtml-include": "^1.6.2",
+    "sass": "^1.32.8"
+  },
+  "dependencies": {
+    "notiflix": "^3.0.1"
+  }
+}
